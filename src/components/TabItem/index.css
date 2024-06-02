@@ -1,0 +1,34 @@
+.tab-list {
+  height: 30px;
+  width: 80px;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .tab-list {
+    width: 100px;
+    margin: 20px;
+  }
+}
+.tab-button {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .tab-button {
+    font-size: 20px;
+  }
+}
+.horizontal-ruler {
+  border: 2px solid #fec653;
+}
+.dark-color {
+  color: #fec653;
+}
+.light-color {
+  color: #ffffff;
+}

@@ -1,0 +1,23 @@
+.thumbnail-list {
+  width: 21%;
+  margin-bottom: 20px;
+  margin: 5px;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-list {
+    width: 18%;
+  }
+}
+.thumbnail-button {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.thumbnail-img {
+  height: 100%;
+  width: 100%;
+}
